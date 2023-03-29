@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.empty-div {
+  /* using in js */
+  width: 10rem;
+  height: 20rem;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.navbar {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  margin-top: 3.6px;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.bet {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.table-specify {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.table--attribute {
+  text-align: center;
+}
+
+.attributes {
+  gap: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.attribute {
+  transition: all 0.3s;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid black;
+}
+
+.attribute:nth-child(odd) {
+  background-color: #87fc026b;
+  /* #87fc02e5 */
+}
+
+.attribute:nth-child(even) {
+  background-color: #e41616b9;
+  /* #e41616b9 #e416165b*/
+}
+
+#tamam-btn,
+#masa-btn {
+  transition: all 0.3s;
+  margin: 4rem 12rem 2rem 12rem;
+  text-align: center;
+  padding: 0.8rem 1.6rem;
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+.attribute:hover,
+#tamam-btn:hover,
+#masa-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.display-none {
+  display: none;
+  visibility: hidden;
+}
+
+.for-error {
+  top: 5rem;
+  position: absolute;
+  text-align: center;
+  background-color: #ccc;
+  font-size: 2rem;
+  margin: auto;
+  width: 50rem;
+  height: 38rem;
+  z-index: 1;
+  align-items: center;
+  padding: 1rem;
+}
+
+.for-masa {
+  top: 5rem;
+  position: absolute;
+  background-color: #ccc;
+  font-size: 2rem;
+  margin: auto;
+  width: 50rem;
+  min-height: 38rem;
+  z-index: 1;
+  align-items: center;
+  padding: 1rem;
+}
+
+.for-masa div {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.for-masa h5 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.for-masa h3 {
+  font-size: 1.2rem;
+}

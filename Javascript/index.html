@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="empty-div"></div>
+    <section class="hero-section">
+      <div class="container">
+        <!-- error box -->
+        <div class="for-error display-none">
+          <h3>HATA</h3>
+          <p>Bahisi belirtilen değerler arasında giriniz.</p>
+          <p>Herhangi bir yere tıklayarak hata mesajını geçebilirsiniz.</p>
+        </div>
+        <div class="for-masa display-none">
+          <h3>Masalar</h3>
+        </div>
+        <nav class="navbar">
+          <div class="icon">
+            <ion-icon name="game-controller-outline"></ion-icon>
+          </div>
+          <div class="heading">
+            <h1>Masa Özelliklerini Seç</h1>
+          </div>
+          <div class="icon">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+        </nav>
+        <div class="main">
+          <div class="bet">
+            <p>(Min bahis:200 / Max bahis:5000)</p>
+            <label for="bet-value"><h3>Bahis Miktarı:</h3></label>
+            <input type="text" id="bet-value" name="bet-value" />
+          </div>
+
+          <div class="table-specify">
+            <div class="table--attribute">
+              <h3>Hızlı</h3>
+              <div class="attributes">
+                <div class="attribute attribute1">
+                  <h5>Evet</h5>
+                </div>
+                <div class="attribute attribute2">
+                  <h5>Hayır</h5>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="table--attribute">
+              <h3>Teke Tek</h3>
+              <div class="attributes">
+                <div class="attribute attribute3">
+                  <h5>Evet</h5>
+                </div>
+                <div class="attribute attribute4">
+                  <h5>Hayır</h5>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="table--attribute">
+              <h3>Rövanş</h3>
+              <div class="attributes">
+                <div class="attribute attribute5">
+                  <h5>Evet</h5>
+                </div>
+                <div class="attribute attribute6">
+                  <h5>Hayır</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tamam-btn">
+            <h5>Masa Ekle</h5>
+          </div>
+
+          <div id="masa-btn">
+            <h5>Masaları Gör</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
